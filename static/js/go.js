@@ -8,7 +8,7 @@
 var video_time;
 var user_count;
 
-window.onload = main;
+//window.onload = main;
 // Synchornizes the video every 30 seconds
 
 function main(){
@@ -72,7 +72,7 @@ function setPlayTime(){
 function getHttp(){
 
 	var xml_http = null;
-	var server_url = "http://54.69.71.254:8080/timestamp/";
+	var server_url = "http://54.69.71.254:8080/timestamp/"; //server no longer working
 
 	xml_http = new XMLHttpRequest();
 	xml_http.open( "GET", server_url, false );
