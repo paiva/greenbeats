@@ -8,7 +8,7 @@
 var video_time;
 var user_count;
 
-//window.onload = main;
+window.onload = main;
 // Synchornizes the video every 30 seconds
 
 function main(){
@@ -69,6 +69,7 @@ function setPlayTime(){
 
 // Returns JSON data (timestamp and usercount) from server
 
+/*
 function getHttp(){
 
 	var xml_http = null;
@@ -80,7 +81,7 @@ function getHttp(){
 	
 	return JSON.parse(xml_http.responseText);
 		
-};
+};*/
 
 
 // Calculates video play time form server
